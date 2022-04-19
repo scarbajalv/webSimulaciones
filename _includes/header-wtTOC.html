@@ -1,5 +1,7 @@
 {% include header-nav.html %}
+
 <div class="container">
+
   <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
     <i class="material-icons">menu</i>
   </a>
@@ -8,7 +10,7 @@
   <li>
     <div class="userView thi-userView">
       <div class="background"></div>
-        <a href="/">
+        <a href="{{ site.baseurl }}/">
           <img style="display:inherit;" class="circle z-depth-2" src="{{ site.baseurl }}/assets/res/user.png">
         </a>
       <span style="font-size: larger;" class="white-text name">{{site.user.name}}</span>
@@ -22,10 +24,10 @@
     </form>
   </li>
   <div id="nav-bar">
-    <li><a class="waves-effect" href="{{ site.baseurl }}index"><i class="material-icons">home</i>Inicio</a></li>        
-    <li><a class="waves-effect" href="{{ site.baseurl }}fisicaIntro"><i class="material-icons">dashboard</i>Física</a></li>
+    <li><a class="waves-effect" href="{{ site.baseurl }}/index"><i class="material-icons">home</i>Inicio</a></li>        
+    <li><a class="waves-effect" href="{{ site.baseurl }}/fisicaIntro"><i class="material-icons">dashboard</i>Física</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="waves-effect" href="{{ site.baseurl }}about"><i class="material-icons">info</i>Acerca de</a></li>
-    <li><a class="waves-effect" href="{{ site.baseurl }}contact"><i class="material-icons">perm_contact_calendar</i>Contacto</a></li>
+    <li><a class="waves-effect" href="{{ site.baseurl }}/about"><i class="material-icons">info</i>Acerca de</a></li>
+    <li><a class="waves-effect" href="{{ site.baseurl }}/contact"><i class="material-icons">perm_contact_calendar</i>Contacto</a></li>
   </div>
 </ul>

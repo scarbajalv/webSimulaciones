@@ -1,7 +1,7 @@
-title: 3o4cosas
+title: webSimulaciones
 description: blog destinado a las tres o cuatro cosas que valen la pena en esta vida.
-baseurl: ""
-url: ""
+baseurl: "/webSimulaciones"
+url: "/webSimulaciones/"
 repository: scarbajalv/3o4cosas
 #paginate: 2
 
@@ -13,7 +13,7 @@ user:
   name: "3o4cosas"
   email: "sanelicv@gmail.com"
   website: "www.3o4cosas.com"
-  avatar: "/assets/res/user.png"
+  avatar: "webSimulaciones/assets/res/user.png"
   github: "scarbajalv"
 google_tracking_id: ""
 google_site_verification: ""
