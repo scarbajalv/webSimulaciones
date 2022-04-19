@@ -10,10 +10,10 @@ favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page
 
 # MatJek specific configurations
 user: 
-  name: "3o4cosas"
+  name: "webSimulaciones"
   email: "sanelicv@gmail.com"
-  website: "www.3o4cosas.com"
-  avatar: "webSimulaciones/assets/res/user.png"
+  website: "www.webSimulaciones.com"
+  avatar: "{{ site.baseurl }}/assets/res/user.png"
   github: "scarbajalv"
 google_tracking_id: ""
 google_site_verification: ""

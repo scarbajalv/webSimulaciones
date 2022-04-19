@@ -12,7 +12,7 @@
 
   <title>
     
-      Física | webSimulaciones
+      Simulación de un Péndulo Simple | webSimulaciones
     
   </title>
 
@@ -22,7 +22,7 @@
 
   <!-- page's cover -->
   
-    <meta property="og:image" content="http://localhost:4000/webSimulaciones/images/defaultCoverPost.png" />
+    <meta property="og:image" content="/webSimulaciones/images/defaultCoverPost.png" />
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1234">
     <meta property="og:image:height" content="592">
@@ -70,7 +70,7 @@
   
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Física" />
+<meta property="og:title" content="Simulación de un Péndulo Simple" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="blog destinado a las tres o cuatro cosas que valen la pena en esta vida." />
 <meta property="og:description" content="blog destinado a las tres o cuatro cosas que valen la pena en esta vida." />
@@ -78,10 +78,10 @@
 <meta property="og:url" content="http://localhost:4000/webSimulaciones/fisicaIntro" />
 <meta property="og:site_name" content="webSimulaciones" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Física" />
+<meta property="twitter:title" content="Simulación de un Péndulo Simple" />
 <meta name="google-site-verification" content="" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/webSimulaciones/fisicaIntro","headline":"Física","description":"blog destinado a las tres o cuatro cosas que valen la pena en esta vida.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/webSimulaciones/fisicaIntro","headline":"Simulación de un Péndulo Simple","description":"blog destinado a las tres o cuatro cosas que valen la pena en esta vida.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -94,10 +94,9 @@
     <div class="container">
       <a class="page-title font-title" href="/webSimulaciones/">webSimulaciones</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/webSimulaciones/tags.html">Categorías</a></li>
-        <li><a href="/webSimulaciones/categories.html">Categories</a></li>
-        <li><a href="/webSimulaciones/about.html">About</a></li>
-        <li><a href="/webSimulaciones/contact.html">Contact</a></li>
+        <!--<li><a href="/webSimulaciones/tags.html">Categorías</a></li>-->
+        <li><a href="/webSimulaciones/about.html">Acerca de mí</a></li>
+        <li><a href="/webSimulaciones/contact.html">Contacto</a></li>
       </ul>
     </div>
   </div>
@@ -116,8 +115,8 @@
         <a href="/webSimulaciones/">
           <img style="display:inherit;" class="circle z-depth-2" src="/webSimulaciones/assets/res/user.png">
         </a>
-      <span style="font-size: larger;" class="white-text name">3o4cosas</span>
-      <span class="white-text email"><a style="color: #bdbdbd;" href="http://www.3o4cosas.com">www.3o4cosas.com</a></span>
+      <span style="font-size: larger;" class="white-text name">webSimulaciones</span>
+      <span class="white-text email"><a style="color: #bdbdbd;" href="http://www.webSimulaciones.com">www.webSimulaciones.com</a></span>
     </div>
   </li>
   <li style="padding: 10px;">
@@ -128,7 +127,7 @@
   </li>
   <div id="nav-bar">
     <li><a class="waves-effect" href="/webSimulaciones/index"><i class="material-icons">home</i>Inicio</a></li>        
-    <li><a class="waves-effect" href="/webSimulaciones/fisicaIntro"><i class="material-icons">dashboard</i>Física</a></li>
+    <li><a class="waves-effect" href="/webSimulaciones/mypages/penduloSimple/penduloSimple"><i class="material-icons">dashboard</i>Péndulo Simple</a></li>
     <li><div class="divider"></div></li>
     <li><a class="waves-effect" href="/webSimulaciones/about"><i class="material-icons">info</i>Acerca de</a></li>
     <li><a class="waves-effect" href="/webSimulaciones/contact"><i class="material-icons">perm_contact_calendar</i>Contacto</a></li>
@@ -139,12 +138,24 @@
 <main>
 	<div class="container">
 	  <div id="page-info">
-		  <h2>Física</h2>
+		  <h2>Simulación de un Péndulo Simple</h2>
 		</div>
 		<div class="row">
-			<h1 id="hola-leoncita">Hola leoncita</h1>
+			<script src="/webSimulaciones/p5js/p5.js"></script>
 
-<p><a href="/mypages/toyPage">/mypages/toypage</a></p>
+<script src="/webSimulaciones/p5js/p5.sound.js"></script>
+
+<script src="/webSimulaciones/p5js/physics.js"></script>
+
+<p>A continuación se muestra una simulación interactiva de un péndulo simple.</p>
+
+<p>Siéntete libre de variar los siguientes parámetros y estudiar cómo cambia la dinámica del péndulo.</p>
+
+<ol>
+  <li>Longitud de la cuerda.</li>
+  <li>Aceleración de la Gravedad.</li>
+</ol>
+
 
 			<!-- 
 			  <div id="disqus_thread"></div>

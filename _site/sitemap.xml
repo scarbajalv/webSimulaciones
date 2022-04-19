@@ -27,6 +27,12 @@
 <loc>http://localhost:4000/webSimulaciones/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/webSimulaciones/mypages/penduloSimple/penduloSimple</loc>
+</url>
+<url>
+<loc>http://localhost:4000/webSimulaciones/penduloSimple</loc>
+</url>
+<url>
 <loc>http://localhost:4000/webSimulaciones/search</loc>
 </url>
 <url>

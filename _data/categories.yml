@@ -2,7 +2,7 @@
   name: NoteTheme
 - slug: it
   name: Information Technology
-- slug: fisica
-  name: Física
-- slug: muerte
-  name: Muerte  
+- slug: mas
+  name: MAS
+- slug: péndulo
+  name: Péndulo

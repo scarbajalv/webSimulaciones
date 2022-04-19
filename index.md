@@ -6,16 +6,12 @@ layout: page
 css: ["index.css"]
 ---
 &nbsp;
-<div id="centered" style="margin: 0 auto; max-width:600px;">
-    <figure class="quote">
-      <blockquote>
-        <i>¿Qué se puede hacer en ochenta años? Probablemente, empezar a darse cuenta de cómo habría que vivir y cuáles son las tres o cuatro cosas que valen la pena.</i>
-      </blockquote>
-      <figcaption>
-        &mdash; Ernesto Sábato, <cite>Uno y el Universo.</cite>
-      </figcaption>
-    </figure>
-</div>
+
+Bienvenidos a la web de simulaciones.
+
+Esta página aún está en construcción, pero te invito a visitar las simulaciones que hemos preparado para ti.
+
+<!-- 
 
 &nbsp;
 
@@ -99,3 +95,4 @@ css: ["index.css"]
 </ul>
 </div>
 
+-->
